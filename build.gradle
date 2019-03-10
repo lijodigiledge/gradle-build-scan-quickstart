@@ -6,7 +6,7 @@ plugins {
 repositories {
     jcenter()
     maven {
-    url "http://142.93.220.227:8081/repository/maven-public/"
+    url "http://repo.maven.apache.org/maven2"
     }
 }
 

@@ -5,7 +5,9 @@ plugins {
 
 repositories {
     jcenter()
-    maven {}
+    maven {
+    url "http://142.93.220.227:8081/repository/gradle/"
+    }
 }
 
 dependencies {

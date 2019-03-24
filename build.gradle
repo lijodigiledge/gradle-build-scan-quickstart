@@ -17,7 +17,7 @@ dependencies {
 uploadArchives {
     repositories {
        mavenDeployer {
-             repository(url: "http://18.216.234.156:8081/repository/gradlesample/") {
+             repository(url: "http://142.93.220.227:8081/repository/gradlesample/") {
              authentication(userName: "lijo", password: "abc@123")
 }
              pom.version = "1.0-SNAPSHOT"
